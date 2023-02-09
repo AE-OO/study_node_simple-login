@@ -25,16 +25,26 @@ class User {
         return {success: false, msg: "아이디가 존재하지 않습니다."};
     }
 
-    register() {
+    async register() {
         const body = this.body;
-        const {id} = UserStorage.getUserInfo(body.id);
-
-        if(id) {
-            return {success: false, msg: "이미 존재하는 아이디입니다."};
-        } else {
-            UserStorage.addUserInfo(body);
-            return {success: true, msg:"회원가입 성공"};
+        // UserStorage.js 에서 이미 존재하는 아이디일때 던지는 오류 캐치
+        try {
+            const response = await UserStorage.addUserInfo(body);
+            return response;
+        } catch (err) {
+            return {success: false, msg: err};
         }
+
+        // 내가 작성한 코드
+        // 이미 존재하는 아이디인지 판별하는 부분인데 이걸 UserStorage에서 처리해 줌
+        // const {id} = UserStorage.getUserInfo(body.id);
+
+        // if(id) {
+        //     return {success: false, msg: "이미 존재하는 아이디입니다."};
+        // } else {
+        //     UserStorage.addUserInfo(body);
+        //     return {success: true, msg:"회원가입 성공"};
+        // }
     }
 }
 
