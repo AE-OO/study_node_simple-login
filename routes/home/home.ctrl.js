@@ -19,9 +19,9 @@ const output = {
 
 // 브라우저로부터 받은 데이터 처리하는 애들
 const process = {
-    login: (req, res) => {
+    login: async (req, res) => {   // async 는 함수 앞에서 사용해줘야 함
         const user = new User(req.body);
-        const response = user.login();
+        const response = await user.login();
 
         // const id = req.body.id,
         //     psword = req.body.psword;
