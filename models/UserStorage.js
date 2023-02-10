@@ -10,7 +10,7 @@ class UserStorage {
         return new Promise((resolve, reject) => {
             db.query("SELECT * FROM users WHERE id = ?", [id], (err, data) => {
                 if (err) reject(`${err}`);
-                resolve(data[0]);  // 받아온 data는 배열안에 담겨있기 때문에 id를 꺼내려면 0번째에 담겨있는 값을 호출해야 함
+                else resolve(data[0]);  // 받아온 data는 배열안에 담겨있기 때문에 id를 꺼내려면 0번째에 담겨있는 값을 호출해야 함
             });
         });
     }
@@ -19,7 +19,7 @@ class UserStorage {
         return new Promise((resolve, reject) => {
             db.query("INSERT INTO users(id, name, psword) VALUES (?, ?, ?)" ,[body.id, body.name, body.psword], (err) => {
                 if (err) reject(`${err}`); // err를 문자열로 출력하지 않으면 alert에 에러메세지 대신 [Object object] 이렇게 출력됨
-                resolve({success: true});
+                else resolve({success: true});
             });
         });
     }

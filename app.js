@@ -21,7 +21,7 @@ dotenv.config();  // 환경변수 모듈 생성
 // const morgan = require("morgan"); // 로그 관리/ 보통 winston을 많이 사용함
 const app = express();
 
-const accessLogStream = require("./config/log_morgan");
+// const accessLogStream = require("./config/log_morgan");
 
 // 앱 세팅
 app.set("views", "./views"); // 뷰 파일이 있는 폴더 경로 

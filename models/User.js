@@ -26,7 +26,7 @@ class User {
             }
             return {success: false, msg: "아이디가 존재하지 않습니다."};
         }catch (err){
-            return {success: false, msg: err};
+            return {success: false, err};
         };
     }
 
@@ -37,7 +37,7 @@ class User {
             const response = await UserStorage.addUserInfo(body);
             return response;
         } catch (err) {
-            return {success: false, msg: err};
+            return {success: false, err};
         }
     }
 }

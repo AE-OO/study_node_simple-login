@@ -1,20 +1,37 @@
-2023-31-05 [simple-login] error : Hello
-2023-32-05 [simple-login] error : Hello
-2023-33-05 [simple-login] error : Hello
-2023-33-05 [simple-login] error : Hello
-2023-35-05 [simple-login] error : Hello
-2023-36-05 [simple-login] error : Hello
-2023-37-05 [simple-login] error : Hello
-2023-37-05 [simple-login] error : Hello
-2023-37-05 [simple-login] error : Hello
-2023-37-05 [simple-login] error : Hello
-2023-39-05 [simple-login] error : Hello
-2023-52-05 [simple-login] error : Hello
-2023-53-05 [simple-login] error : Hello
-2023-53-05 [simple-login] info : 서버 가동
-2023-53-05 [simple-login] error : Hello
-2023-53-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
-2023-53-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
-2023-54-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
-2023-54-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
-2023-54-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-04-05 [simple-login] info : GET / 200 "홈 화면으로 이동"
+2023-04-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-04-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-04-05 [simple-login] info : POST /login 200 Response: "success: true, msg: undefined
+2023-05-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-05-05 [simple-login] info : POST /login 200 Response: "success: true, msg: undefined
+2023-05-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-05-05 [simple-login] info : GET / 200 "홈 화면으로 이동"
+2023-06-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-06-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-06-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-06-05 [simple-login] info : POST /login 200 Response: "success: false, msg: 비밀번호가 틀렸습니다.
+2023-07-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-07-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-07-05 [simple-login] info : POST /login 200 Response: "success: false, msg: TypeError: Cannot destructure property 'id' of '(intermediate value)' as it is undefined.
+2023-08-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-08-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-09-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-09-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-10-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-10-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-10-05 [simple-login] error : POST /login 200 Response: "success: false, msg: TypeError: Cannot destructure property 'id' of '(intermediate value)' as it is undefined.
+2023-10-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-10-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-10-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-11-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-11-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-11-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-13-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-14-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-14-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-14-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-14-05 [simple-login] error : POST /login 200 Response: "success: false, msg: TypeError: Cannot destructure property 'id' of '(intermediate value)' as it is undefined.
+2023-14-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-14-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-15-05 [simple-login] error : POST /login 200 Response: "success: false, msg: TypeError: Cannot destructure property 'id' of '(intermediate value)' as it is undefined.
+2023-15-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"

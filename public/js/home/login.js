@@ -14,6 +14,8 @@ loginBtn.addEventListener("click", () => {
         id: id.value,
         psword: psword.value,
     };
+
+    if (!id.value || !psword.value) {return alert("모든 항목을 입력해 주세요")};
     
     fetch("/login", {  // fetch는 브라우저의 데이터를 서버로 보내주는 애
         method: "POST",
@@ -26,6 +28,7 @@ loginBtn.addEventListener("click", () => {
         if (res.success) {
             location.href = "/";
         } else {
+            if (res.err) return alert(res.err);
             alert(res.msg);
         }
     })
