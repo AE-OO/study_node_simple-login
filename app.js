@@ -16,6 +16,8 @@
 //모듈
 const express = require("express");  // express 모듈을 찾아옴
 const bodyParser = require("body-parser");  // 브라우저에서 보내는 데이터의 body 부분을 보려면 필요한 모듈
+const dotenv = require("dotenv"); // dotenv 모듈을 사용해 환경변수 관리 - os 마다 환경변수를 등록하는 방법이 다른데 dotenv를 사용해 이를 통일함
+dotenv.config();  // 환경변수 모듈 생성
 const app = express();
 
 // 앱 세팅
