@@ -14,12 +14,12 @@ class User {
         // getUserInfo가 모두 반환되기를 기다리게 하려고 await을 사용함
         // await(async 안에서만 사용가능)은 promise를 반환하는 애한테만 쓸 수 있음
         try {
-            const {id, psword} = await UserStorage.getUserInfo(body.id);   
+            const user = await UserStorage.getUserInfo(body.id);   
             
             // getUserInfo는 동작이 느린 애니까 login() 함수 자체가 느리게 동작하는 애로 생각할 수 있음
             // -> login() 메소드를 실행시키는 home.ctrl.js 파일에서도 await 처리를 해줘야함
-            if (id){
-                if(id === body.id && psword === body.psword) {
+            if (user){
+                if(user.id === body.id && user.psword === body.psword) {
                     return {success: true};
                 }
                 return {success: false, msg: "비밀번호가 틀렸습니다."};

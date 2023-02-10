@@ -35,3 +35,28 @@
 2023-14-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
 2023-15-05 [simple-login] error : POST /login 200 Response: "success: false, msg: TypeError: Cannot destructure property 'id' of '(intermediate value)' as it is undefined.
 2023-15-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-15-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-15-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-15-05 [simple-login] error : POST /login 200 Response: "success: false, msg: TypeError: Cannot destructure property 'id' of '(intermediate value)' as it is undefined.
+2023-15-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-18-05 [simple-login] info : GET / 200 "홈 화면으로 이동"
+2023-19-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-20-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-20-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-20-05 [simple-login] info : POST /login 200 Response: "success: true, msg: undefined
+2023-20-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-20-05 [simple-login] info : POST /login 200 Response: "success: true, msg: undefined
+2023-20-05 [simple-login] info : GET /login 200 "로그인 화면으로 이동"
+2023-20-05 [simple-login] info : GET / 200 "홈 화면으로 이동"
+2023-24-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-24-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-24-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-27-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-29-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
+2023-29-05 [simple-login] info : GET /login 304 "로그인 화면으로 이동"
+2023-29-05 [simple-login] info : GET /login 304 "로그인 화면으로 이동"
+2023-29-05 [simple-login] info : POST /login 200 Response: "success: false, msg: 아이디가 존재하지 않습니다.
+2023-29-05 [simple-login] info : GET /login 304 "로그인 화면으로 이동"
+2023-29-05 [simple-login] info : POST /login 200 Response: "success: false, msg: 아이디가 존재하지 않습니다.
+2023-29-05 [simple-login] info : GET /login 304 "로그인 화면으로 이동"
+2023-30-05 [simple-login] info : 3000 포트에서 서버가 가동되었습니다.
