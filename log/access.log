@@ -1,0 +1,9 @@
+[0mGET /login [36m304[0m 23.996 ms - -[0m
+[0mGET /login [36m304[0m 4.539 ms - -[0m
+[0mGET /register [36m304[0m 9.092 ms - -[0m
+[0mGET /login [36m304[0m 5.461 ms - -[0m
+[0mGET /register [36m304[0m 27.809 ms - -[0m
+::1 - - [10/Feb/2023:08:08:46 +0000] "GET /login HTTP/1.1" 304 -
+::ffff:179.43.177.242 - - [10/Feb/2023:08:23:26 +0000] "GET / HTTP/1.1" 200 297
+::1 - - [10/Feb/2023:08:52:02 +0000] "GET /login HTTP/1.1" 304 -
+::1 - - [10/Feb/2023:08:52:03 +0000] "GET /register HTTP/1.1" 304 -
